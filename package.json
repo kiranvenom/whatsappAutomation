@@ -1,0 +1,27 @@
+{
+	"name": "whatsapp",
+	"version": "1.0.0",
+	"description": "automation image + text to 100k users",
+	"main": "index.js",
+	"scripts": {
+		"frontEnd": "cd client && npm run dev",
+		"backEnd": "cd server && npm start",
+		"start": "concurrently \"npm run frontEnd\" \"npm run backEnd\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kiranvenom/whatsappAutomation.git"
+	},
+	"keywords": [
+		"whatsApp"
+	],
+	"author": "Kiran M",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/kiranvenom/whatsappAutomation/issues"
+	},
+	"homepage": "https://github.com/kiranvenom/whatsappAutomation#readme",
+	"dependencies": {
+		"concurrently": "^8.2.2"
+	}
+}
