@@ -14,7 +14,6 @@ const UploadImg = () => {
 	}, [userfound]);
 
 	const handleImageState = (e) => {
-		// console.log(e.target.value);
 		setFileName(e.target.value);
 	};
 
